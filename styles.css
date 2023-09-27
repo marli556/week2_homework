@@ -1,0 +1,140 @@
+
+body {
+    background-color: white;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.con button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+ .ver {
+    border-left:  5px solid green;
+    height: 200px;
+    margin: 0 200px;
+    margin-top: 80px;
+    padding: 20px;
+    background-color: lightblue;
+    margin-bottom: 50px;
+} 
+
+.navbar {
+    background-color: gray;
+    overflow: hidden;
+    justify-content: right;
+    height: 70px;
+}
+.navbar a {
+    padding: 12px 14px;
+    font-size:  15px;
+    text-align: center;
+    float: right;
+    color: coral;
+}
+.navbar a:hover {
+    background-color: gray;
+    color: white;
+}
+h1 {
+    position: absolute;
+    top: 0;
+    left: 20px; 
+    margin: 0;
+    padding: 0;
+}
+.image-profile {
+    height: 150px;
+    width: 100%;
+    padding: 18px 16px;
+    background-color: blanchedalmond;
+}
+h3 {
+    position: absolute;
+    padding: 30px;
+    margin-top: 40px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+img {
+    float: right;
+    height: 150px;
+    width: 200px;
+    padding: 13px 
+    margin-top:  0;
+}
+footer {
+    text-align: center;
+    padding:4px;
+    background-color: blanchedalmond;
+    color:blue;
+}
+.con {
+    border-radius:  5px;
+    background-color: lightblue;
+    padding: 20px;
+    height:200px ;
+    margin-top:  80px;
+    margin: 0 200px;
+    margin-bottom: 50px;
+}
+h4 {
+    text-align:  center;
+    margin-top:  60px;
+
+}
+
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
